@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+header {
+    text-align: center;
+    background-color: black
+}
+
+header #logo {
+    width: 5%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+header h3 {
+    text-align: center;
+    padding: 20pt;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+section {
+    transition: box-shadow 0.3s ease;
+    background-color: beige;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* cursor: pointer; */
+}
+
+section:hover {
+    box-shadow: 0 2px 8px black;
+}
+
+section article {
+    margin: 15px 0;
+    padding: 5px 0;
+}
+
+section article h2 {
+    text-align: center;
+    margin: 16px;
+}
+
+
+
+/* ---------------------formularios  ------------------------------*/
+
+th {
+    text-align: left;
+}
+
+h3 {
+    height: 40px;
+    font-family: 'Times New Roman';
+}
+
+.nombre-cuadro {
+    font-size: 15pt;
+    font-family: 'Times New Roman';
+}
+
+.label-nombre {
+    color: gray;
+    font-size: 14pt;
+    font-family: 'Times New Roman';
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.label-precio {
+    color: gray;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.input-cuadro {
+
+    border-radius: 5px;
+    padding: 10px;
+    outline: 1px solid gray;
+}
+
+.tr-espacios-cuadro {
+    height: 80px;
+}
+
+.comentario-cuadro {
+    outline: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section article form {
+    margin: 10px;
+    padding: 10px;
+}
+
+.marco {
+    border: 1px solid black;
+    margin-left: 155px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer div {
+    width: 33%;
+}
+
+footer div #logo {
+    width: 50%;
+    margin: 10% auto;
+}
+
+footer h2 {
+    margin: 20% auto 10% auto;
+    width: 50%;
+}
+
+#logos_marcas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#logos_marcas img {
+    width: 15%;
+    margin: 5% 2%;
+    display: block;
+}
+
+#Derechos_y_rs {
+    display: flex;
+    flex-direction: column;
+}
+
+#rs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    margin: 1% auto;
+}
+
+#rs a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25%;
+    margin: 1% auto;
+}
+
+#rs img {
+    width: 75%;
+    margin: 1%;
+    display: block;
+}
